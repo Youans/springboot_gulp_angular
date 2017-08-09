@@ -1,0 +1,18 @@
+// Set/Override Bootstrap Variables:
+$font-size-base: 16px;
+$font-family-base: 'Verdana';
+
+$grid-float-breakpoint:     992px;
+
+$navbar-default-bg: #B9E4EA;
+
+// Include Bootstrap Variables then:
+@import "variables";
+
+// Include Mappy Breakpoints
+$breakpoints: (
+'xs': $screen-xs,
+'sm': $screen-sm,
+'md': $screen-md,
+'lg': $screen-lg);
+

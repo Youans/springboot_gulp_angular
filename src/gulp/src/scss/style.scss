@@ -1,0 +1,26 @@
+// Import bootstrap and fontawesome
+@import "core/_directional";
+@import "core/_variables-custom";
+@import 'core/_mixins-custom';
+@import 'core/_bootstrap-custom';
+@import 'core/_responsive-align';
+/* Incude bootstrap-dialog to make use of Bootstrap Modal more friendly. Examples: http://nakupanda.github.io/bootstrap3-dialog/*/
+/*@import "components/bootstrap-dialog";*/
+/* Incude bootstrap-social-buttons to make use Social Buttons for Bootstrap. Examples: http://lipis.github.io/bootstrap-social/*/
+/*@import "components/bootstrap-social-buttons";*/
+@import 'font-awesome';
+
+// Bootstrap Starter Template Styles
+body {
+    padding-top: 50px;
+}
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+    @include bp(sm md) {
+        padding: 15px;
+    }
+    @include bp(max-width sm) {
+        padding: 10px;
+    }
+}
